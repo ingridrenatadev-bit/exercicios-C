@@ -22,7 +22,7 @@ A tabela abaixo conecta a lógica aplicada nestes exercícios em C com os concei
 | **05** | Mult. de Frases | Passagem de ponteiros e iteração linear. | Manipulação de Strings e loops de IO. | [Código](./05) |
 | **06** | Soma de Lista | Controle manual do tamanho do array. | Equivalente aos métodos de array (`.reduce()`).| [Código](./06) |
 | **07** | Contagem Regressiva | Laço `while` com controle por sentinela. | Estruturas de repetição assíncronas. | [Código](./07) |
-| **08** | Localizador Maior | Busca linear em array ($O(n)$). | Algoritmos de busca e ordenação em memória.| [Código](./08) |
+| **08** | Localizador Maior | Busca linear em array ($O(n)$). | Algoritmos de busca e ordenação em memória.| [Código](localizador-maior-08.c) |
 | **09** | Filtro Positivos | Alocação dinâmica de memória (`malloc`). | Imutabilidade e criação de novos arrays (`.filter()`).| [Código](./09) |
 | **10** | Tabuada Dinâmica | Substituição conceitual do `range()`. | Loops indexados tradicionais para iteração rápida. | [Código](./10) |
 | **11** | Busca em Matriz | Ponteiros para o retorno de múltiplos dados. | Desestruturação de Arrays/Objetos e paginação de dados. | [Código](./11) |
