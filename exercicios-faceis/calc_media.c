@@ -9,7 +9,7 @@ float calc_media(float notas[], int tamanho){
     media = soma / 4;
     
     return media;
-}  
+}
 
 int main()
 {
@@ -19,10 +19,21 @@ int main()
     for(int i = 0; i < tamanho; i++){
         printf("Digite a nota: ");
         scanf("%f", &notas[i]);
+        
+        if(notas[i] < 0){
+            printf("Entrada invalida! Digite apenas numeros positivos.\n");
+            while (getchar() != '\n');
+            continue;
+        }
     }
     
     float resultado_media = calc_media(notas, tamanho);
-    printf("A media eh: %.2f\n", resultado_media);
+    if(resultado_media >= 7){
+        printf("Aprovado!\nSua media foi: %.2f\n", resultado_media);
+    } 
+    else {
+        printf("Reprovado!\nSua media foi: %.2f\n", resultado_media);   
+    }
     
     return 0;
 }
