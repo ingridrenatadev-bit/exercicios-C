@@ -23,11 +23,11 @@ A tabela abaixo conecta a lógica aplicada nestes exercícios em C com os concei
 | **06** | Soma de Lista | Controle manual do tamanho do array. | Equivalente aos métodos de array (`.reduce()`).| [Código](./06) |
 | **07** | Contagem Regressiva | Laço `while` com controle por sentinela. | Estruturas de repetição assíncronas. | [Código](./07) |
 | **08** | Localizador Maior | Busca linear em array ($O(n)$). | Algoritmos de busca e ordenação em memória.| [Código](localizador-maior-08.c) |
-| **09** | Filtro Positivos | Alocação dinâmica de memória (`malloc`). | Imutabilidade e criação de novos arrays (`.filter()`).| [Código](filtro_positivos_09.c) |
+| **09** | Filtro Positivos | Alocação dinâmica de memória (`malloc`). | Imutabilidade e criação de novos arrays (`.filter()`).| [Código](filtro-positivos-09.c) |
 | **10** | Tabuada Dinâmica | Substituição conceitual do `range()`. | Loops indexados tradicionais para iteração rápida. | [Código](./10) |
 | **11** | Busca em Matriz | Ponteiros para o retorno de múltiplos dados. | Desestruturação de Arrays/Objetos e paginação de dados. | [Código](./11) |
 | **12** | Diagonal Principal | Otimização de iteração na matriz ($O(n)$). | Varredura inteligente de estruturas de dados aninhadas. | [Código](./12) |
-| **13** | Inversor de Vetor | Algoritmo *in-place* com dois ponteiros. | Mutação eficiente em memória sem usar `.reverse()`.| [Código](inversor_vetor_13.c) |
+| **13** | Inversor de Vetor | Algoritmo *in-place* com dois ponteiros. | Mutação eficiente em memória sem usar `.reverse()`.| [Código](inversor-vetor-13.c) |
 | **14** | Média da Matriz | Varredura de dados contíguos na memória. | Agrupamento de dados bidimensionais. | [Código](./14) |
 | **15** | Fatorial com While | Prevenção de estouro numérico (`unsigned long long`). | Entendimento de limites de tipos numéricos e BigInt. | [Código](./15) |
 
