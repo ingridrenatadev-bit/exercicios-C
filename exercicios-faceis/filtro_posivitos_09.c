@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//função que retorna os numeros positivos da lista.
 int filtro_positivos(int lista[], int lista_nova[], int tamanho){
     int j = 0;
     
